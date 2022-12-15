@@ -1,16 +1,4 @@
 spring:
-  application:
-    name: prometheus-rest
-  cloud:
-    config:
-      server:
-        git:
-          uri: file://home/long/Desktop/repositories/config-repos
-          default-label: master
-#  profiles:
-#    active: dev
-#  config:
-#    import: optional:configserver:https://localhost:8081/
   datasource:
     url: jdbc:oracle:thin:@//10.40.3.1:1521/oracle
     username: prometheus
