@@ -1,0 +1,4 @@
+brokerHost:
+brokerPort: 1883
+restServiceHost:
+restServicePort: 8000
