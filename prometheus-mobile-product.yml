@@ -1,4 +1,6 @@
-brokerHost:
+rasb: 192.168.1.7
+kde: 192.168.68.110
+brokerHost: ${rasb}
 brokerPort: 1883
-restServiceHost:
+restServiceHost: http://${kde}
 restServicePort: 8000
