@@ -1,13 +1,15 @@
+rasb: 192.168.84.163
+kde: 192.168.84.110
 broker:
-    host: 192.168.1.4
+    host: ${rasb}
     port: 1883
 database:
-    host: 192.168.74.66
-    password: dvkh2022
+    host: 127.0.0.1
+    password: Ld201199
     port: 1521
-    schema: dev_los
-    service: los
-    username: DEV_LOS
+    schema: prometheus
+    service: oracle
+    username: prometheus
 debug: true
 server:
     host: ''
