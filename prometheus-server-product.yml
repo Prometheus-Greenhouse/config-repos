@@ -4,7 +4,7 @@ broker:
     host: 192.168.84.163
     port: 1883
 database:
-    host: 127.0.0.1
+    host: 192.168.84.110
     password: Ld201199
     port: 1521
     schema: prometheus
