@@ -1,7 +1,7 @@
 rasb: 192.168.84.163
 kde: 192.168.84.110
 broker:
-    host: ${rasb}
+    host: 192.168.84.163
     port: 1883
 database:
     host: 127.0.0.1
